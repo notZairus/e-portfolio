@@ -1,7 +1,9 @@
-import Lanyard from "../components/lanyard/Lanyard.jsx";
+
 import TextType from "@/components/TextType.tsx";
 import Particles from "@/components/Particles.tsx";
 
+// @ts-nocheck
+import Lanyard from "../components/lanyard/Lanyard.tsx";
 
 export default function Home() {
   return (

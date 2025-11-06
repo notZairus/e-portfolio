@@ -3,6 +3,8 @@ export {};
 
 declare module '*.glb';
 declare module '*.png';
+declare module '*.jsx';
+
 
 declare module 'meshline' {
   export class MeshLineGeometry extends THREE.BufferGeometry {
