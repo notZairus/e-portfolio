@@ -1,4 +1,4 @@
-import Lanyard from "@/components/lanyard/Lanyard.jsx";
+import Lanyard from "../components/lanyard/Lanyard.jsx";
 import TextType from "@/components/TextType.tsx";
 import Particles from "@/components/Particles.tsx";
 
