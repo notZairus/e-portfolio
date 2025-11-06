@@ -23,8 +23,8 @@ export default function Home() {
 
 
         <section className="w-full bg-transparent">
-            <div className="w-4/5 flex min-h-20 mx-auto items-center gap-12">
-                <div className="text-left flex-3 pb-8">
+            <div className="w-4/5 flex min-h-20 flex-col-reverse md:flex-row mx-auto items-center gap-12">
+                <div className="md:h-min text-center md:text-left flex-3 pb-20 md:pb-8">
                     <p className="text-2xl mb-2">Hello, I am</p>
                     <TextType 
                         className="text-primary-foreground text-5xl tracking-tighter font-bold mb-4" 
