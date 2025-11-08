@@ -15,7 +15,7 @@ export default function About() {
                 <div className="w-10/12 mx-auto flex flex-col md:flex-row items-between gap-4 items-center border-b pb-8">
                   <div className="flex-1">
                     <TiltedCard
-                      imageSrc="/public/project1.jpeg"
+                      imageSrc="/project1.jpeg"
                       altText="Project 1: Library Management System"
                       captionText="Project 1: Library Management System"
                       containerHeight="300px"
@@ -54,7 +54,7 @@ export default function About() {
                 <div className="w-10/12 mx-auto flex flex-col md:flex-row items-between gap-4 items-center  border-b pb-8">
                   <div className="flex-1">
                     <TiltedCard
-                      imageSrc="/public/project2.jpeg"
+                      imageSrc="jir/project2.jpeg"
                       altText="Project 2: Grilled Chicken"
                       captionText="Project 2: Grilled Chicken"
                       containerHeight="300px"
@@ -93,7 +93,7 @@ export default function About() {
                 <div className="w-10/12 mx-auto flex flex-col md:flex-row items-between gap-4 items-center  border-b pb-8">
                   <div className="flex-1">
                     <TiltedCard
-                      imageSrc="/public/project3.jpeg"
+                      imageSrc="/project3.jpeg"
                       altText="Project 3: The Best Bakery"
                       captionText="Project 3: The Best Bakery"
                       containerHeight="300px"
