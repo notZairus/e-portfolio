@@ -72,7 +72,7 @@ export default function Contact() {
                     <PixelTransition
                       firstContent={
                         <img
-                          src="/public/formal.jpeg"
+                          src="/formal.jpeg"
                           alt="default pixel transition content, a cat!"
                           className=" object-cover"
                         />
