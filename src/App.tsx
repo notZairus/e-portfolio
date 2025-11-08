@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from "@/components/Header.js";
 import Home from "@/pages/Home.tsx";
-import About from "@/pages/About.tsx";
+import Projects from "@/pages/Projects";
 import Contact from "@/pages/Contact.tsx";
 import { Route } from "wouter";
 import ClickSpark from "@/components/ClickSpark";
@@ -21,7 +21,7 @@ function App(): React.ReactNode {
           >
             <main className="pt-20 relative">
               <Route path="/" component={Home} />
-              <Route path="/about" component={About} />
+              <Route path="/projects" component={Projects} />
               <Route path="/contact" component={Contact} />
             </main>
           </ClickSpark>
