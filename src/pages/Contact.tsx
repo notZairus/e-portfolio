@@ -46,7 +46,7 @@ export default function Contact() {
         <section className="w-full">
             <div className="w-4/5 min-h-20 mx-auto py-8">
 
-              <h1 className="text-5xl font-bold">Contact Me</h1>
+              <h1 className="text-5xl font-bold">Contact Me <span className="-ml-2 leading-0 text-primary text-[100px] font-bold">.</span></h1>
               <Separator className="my-4" />
 
               <div className="rounded-xl w-full mt-8 overflow-hidden ">

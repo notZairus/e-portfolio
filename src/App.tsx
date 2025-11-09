@@ -3,6 +3,7 @@ import Header from "@/components/Header.js";
 import Home from "@/pages/Home.tsx";
 import Projects from "@/pages/Projects";
 import Contact from "@/pages/Contact.tsx";
+import About from "@/pages/About.tsx";
 import { Route } from "wouter";
 import ClickSpark from "@/components/ClickSpark";
 
@@ -23,6 +24,7 @@ function App(): React.ReactNode {
               <Route path="/" component={Home} />
               <Route path="/projects" component={Projects} />
               <Route path="/contact" component={Contact} />
+              <Route path="/about" component={About} />
             </main>
           </ClickSpark>
         </div>

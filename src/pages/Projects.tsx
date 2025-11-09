@@ -8,7 +8,7 @@ export default function About() {
         <section className="w-full">
             <div className="w-4/5 min-h-20 mx-auto py-8">
 
-              <h1 className="text-5xl font-bold">My Projects</h1>
+              <h1 className="text-5xl font-bold">My Projects <span className="-ml-2 leading-0 text-primary text-[100px] font-bold">.</span></h1>
               <Separator className="my-4 mb-8" />
 
               <div className="min-h-20 w-full flex flex-col gap-12">
