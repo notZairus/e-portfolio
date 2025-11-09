@@ -12,6 +12,27 @@ const techLogos = [
 
 
 
+function EducationCard({ school, title, year }: { school: string; title: string; year: string }) {
+  return (
+    <>
+      <div className="flex gap-4 items-center">
+        <div className="w-[3px] h-28 md:h-24 bg-primary/50">
+
+        </div>
+        <div className="w-full">
+          <div className="bg-primary/10 p-4 rounded-lg flex-1 relative">
+            <div className="w-4 aspect-square absolute top-1/2 -left-[25px] -translate-y-1/2 rounded-full bg-primary" />
+            <h4 className="font-medium">{ school }</h4>
+            <p className="text-sm text-muted-foreground">{title} | {year}</p>
+          </div>
+        </div>
+      </div>
+    </>
+  )
+}
+
+
+
 export default function About() {
   return (
     <>
@@ -43,34 +64,40 @@ export default function About() {
                 </div>
 
                 <div className="space-y-6 md:p-4 rounded-lg flex-3">
-                  <div className="border-b-2 md:pb-4">
+                  <div className="border-b-2 pb-4">
                     <h2 className="text-4xl font-semibold mb-4">Hello, I'm <br /> <span className="text-primary font-bold">Jienelle N. Bautista</span></h2>
                     <p className="text-muted-foreground leading-relaxed">
-                      I'm a passionate web developer with expertise in modern web technologies.
-                      My journey in tech started [your story here]. I love creating elegant
-                      solutions to complex problems and bringing ideas to life through code.
+                      My name is Jienelle N. Bautista, but you can simply call me Jie. I was born on November 28, 2005, and I’m now in my second year pursuing a Bachelor of Science in Computer Science at Norzagaray College. Currently, I’m exploring the world of programming by studying the basics of various languages, including C++, Java, C#, and VB.NET. I find it fascinating to understand how code works and how it can be used to create meaningful and practical projects. As I continue my studies, I’m motivated to keep improving my skills and deepen my understanding of technology and software development.
                     </p>
                   </div>
 
-                  <div>
-                    <h3 className="text-2xl font-semibold mb-3">Skills</h3>
-                    <div className="grid grid-cols-2 gap-4">
-                      <div className="bg-secondary/20 p-4 rounded-lg">
-                        <h4 className="font-medium">Frontend</h4>
-                        <p className="text-sm text-muted-foreground">React, TypeScript, TailwindCSS</p>
-                      </div>
-                      <div className="bg-secondary/20 p-4 rounded-lg">
-                        <h4 className="font-medium">Backend</h4>
-                        <p className="text-sm text-muted-foreground">Node.js, Express, MongoDB</p>
-                      </div>
-                    </div>
-                  </div>
+                  
 
-                  <div>
+                  <div className="">
                     <h3 className="text-2xl font-semibold mb-3">Education</h3>
-                    <div className="bg-secondary/20 p-4 rounded-lg">
-                      <h4 className="font-medium">[Your University]</h4>
-                      <p className="text-sm text-muted-foreground">Bachelor's in [Your Degree] (20XX-20XX)</p>
+                    <div>
+                      {
+                        [
+                          { school: "Norzagaray College", title: "Pursuing Bachelor of Science in Computer Science", year: "2023 - Present" },
+                          { school: "Norzagaray National High School", title: "Graduated Senior High School | STEM Strand", year: "2021 - 2023" },
+                          { school: "Norzagaray National High School", title: "Graduated Junior High School", year: "2017 - 2021" },
+                        ].map((edu, index) => (
+                          <EducationCard
+                            key={index}
+                            school={edu.school}
+                            title={edu.title}
+                            year={edu.year}
+                          />
+                        ))  
+                      }
+                      
+
+
+                      {/* <div className="bg-primary/10 p-4 rounded-lg">
+                        <h4 className="font-medium">Norzagaray National High School</h4>
+                        <p className="text-sm text-muted-foreground">Graduated Junior High School | 2021</p>
+                      </div> */}
+
                     </div>
                   </div>
                 </div>
