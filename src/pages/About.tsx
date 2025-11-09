@@ -65,7 +65,7 @@ export default function About() {
 
                 <div className="space-y-6 md:p-4 rounded-lg flex-3">
                   <div className="border-b-2 pb-4">
-                    <h2 className="text-4xl font-semibold mb-4">Hello, I'm <br /> <span className="text-primary font-bold">Jienelle N. Bautista</span></h2>
+                    <h2 className="text-[32px] md:text-4xl font-semibold mb-4">Hello, I'm <br /> <span className="text-primary font-bold">Jienelle N. Bautista</span></h2>
                     <p className="text-muted-foreground leading-relaxed">
                       My name is Jienelle N. Bautista, but you can simply call me Jie. I was born on November 28, 2005, and I’m now in my second year pursuing a Bachelor of Science in Computer Science at Norzagaray College. Currently, I’m exploring the world of programming by studying the basics of various languages, including C++, Java, C#, and VB.NET. I find it fascinating to understand how code works and how it can be used to create meaningful and practical projects. As I continue my studies, I’m motivated to keep improving my skills and deepen my understanding of technology and software development.
                     </p>
