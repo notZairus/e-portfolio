@@ -23,7 +23,7 @@ function EducationCard({ school, title, year }: { school: string; title: string;
           <div className="py-2">
             <div className="bg-primary/10 p-4 rounded-lg">
               <h4 className="font-medium">{ school }</h4>
-              <p className="text-sm text-muted-foreground"><span className="w-2 truncate">{title}</span> | {year}</p>
+              <p className="text-sm text-muted-foreground">{title} | {year}</p>
             </div>
           </div>
         </div>
