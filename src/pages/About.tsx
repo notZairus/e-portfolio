@@ -15,15 +15,16 @@ const techLogos = [
 function EducationCard({ school, title, year }: { school: string; title: string; year: string }) {
   return (
     <>
-      <div className="flex gap-4 items-center">
-        <div className="w-[3px] h-28 md:h-24 bg-primary/50">
+      <div className="w-full">
+        <div className=" flex-1 relative">
+          <div className="w-4 aspect-square absolute top-1/2 -left-[25px] -translate-y-1/2 rounded-full bg-primary" />
+          <div className="w-1 bg-primary/80 h-full absolute top-1/2 -left-5 -translate-y-1/2 " />
 
-        </div>
-        <div className="w-full">
-          <div className="bg-primary/10 p-4 rounded-lg flex-1 relative">
-            <div className="w-4 aspect-square absolute top-1/2 -left-[25px] -translate-y-1/2 rounded-full bg-primary" />
-            <h4 className="font-medium">{ school }</h4>
-            <p className="text-sm text-muted-foreground">{title} | {year}</p>
+          <div className="py-2">
+            <div className="bg-primary/10 p-4 rounded-lg">
+              <h4 className="font-medium">{ school }</h4>
+              <p className="text-sm text-muted-foreground"><span className="w-2 truncate">{title}</span> | {year}</p>
+            </div>
           </div>
         </div>
       </div>
@@ -75,7 +76,7 @@ export default function About() {
 
                   <div className="">
                     <h3 className="text-2xl font-semibold mb-3">Education</h3>
-                    <div>
+                    <div className="">
                       {
                         [
                           { school: "Norzagaray College", title: "Pursuing Bachelor of Science in Computer Science", year: "2024 - Present" },
