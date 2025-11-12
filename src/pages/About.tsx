@@ -20,8 +20,8 @@ function EducationCard({ school, title, year }: { school: string; title: string;
           <div className="w-4 aspect-square absolute top-1/2 -left-[25px] -translate-y-1/2 rounded-full bg-primary" />
           <div className="w-1 bg-primary/80 h-full absolute top-1/2 -left-5 -translate-y-1/2 " />
 
-          <div className="py-2">
-            <div className="bg-primary/10 p-4 rounded-lg">
+          <div className="py-2 w-full">
+            <div className="bg-primary/10 p-4 rounded-lg w-full">
               <h4 className="font-medium">{ school }</h4>
               <p className="text-sm text-muted-foreground">{title} | {year}</p>
             </div>

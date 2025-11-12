@@ -46,10 +46,6 @@ const DEFAULT_IMAGES: ImageItem[] = [
     alt: 'Picture of Jienelle Bautista'
   },
   {
-    src: '/jie5.jpeg',
-    alt: 'Picture of Jienelle Bautista'
-  },
-  {
     src: '/jie9.jpeg',
     alt: 'Picture of Jienelle Bautista'
   },
