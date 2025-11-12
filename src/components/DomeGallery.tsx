@@ -34,10 +34,6 @@ type ItemDef = {
 
 const DEFAULT_IMAGES: ImageItem[] = [
   {
-    src: '/jie3.jpeg',
-    alt: 'Picture of Jienelle Bautista'
-  },
-  {
     src: '/jie7.jpeg',
     alt: 'Picture of Jienelle Bautista'
   },
@@ -68,7 +64,7 @@ const DEFAULT_IMAGES: ImageItem[] = [
   {
     src: '/jie6.jpeg',
     alt: 'Picture of Jienelle Bautista'
-  }
+  },
 ];
 
 const DEFAULTS = {
