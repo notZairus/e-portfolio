@@ -57,7 +57,9 @@ export default function Header(): React.ReactNode {
       </div>
       <div className="md:hidden block">
         <BubbleMenu 
-          logo={<SiInstagram />}
+          logo={
+            <h1 className="font-bold text-3xl text-primary-foreground">JNB</h1>
+          }
           items={items}
         />
       </div>
